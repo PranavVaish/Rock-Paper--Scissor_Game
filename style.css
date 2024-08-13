@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    width: 18rem;
+    height: 8rem;
+    border-radius: 50px;
+}
+
+#item1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+}
+
+.Rules1 {
+    display: flex;
+    margin: 1rem;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px 5px aqua;
+    text-decoration: underline;
+    padding: 3rem;
+}
+
+h2 {
+    display: flex;
+    padding: 1.2rem;
+    margin: 2rem;
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px aqua;
+}
+@media (max-width: 507px){
+    h1 {
+        text-align: center;
+        text-shadow: 3px 3px 5px aqua;
+        text-decoration: underline;
+        padding: 2rem;
+        line-height: 2.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    h2 {
+        display: flex;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        text-decoration: underline;
+        text-shadow: 3px 3px 5px aqua;
+    }
+}
+
+.choice {
+    /* width: 150px;
+    height: 150px;*/
+    width: 11rem;
+    height: 11rem;
+    text-align: center;
+}
+
+.choice:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+img {
+    /* width: 120px;
+    height: 120px; */
+    width: 9rem;
+    height: 9rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+@media (max-width: 507px) {
+    .choice {
+        /* width: 150px;
+        height: 150px;*/
+        width: 8rem;
+        height: 8rem;
+        text-align: center;
+    }
+    img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    }
+}  
+
+.choices,#results {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-shadow: 3px 3px 5px aqua;
+    margin-top: 1.6rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+.score,.msg,#result {
+    text-align: center;
+    text-shadow: 3px 3px 5px aqua;
+}
+#result{
+    display: flex;
+    justify-content: center;
+}
+#conclusion{
+    border: 3px solid aqua;
+    align-items: center;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+/* #paper{
+    background-color: rgb(35, 126, 157);
+} */
+body {
+    background-color: #151414;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+    /* font-size: 20px; */
+    line-height: 2rem;
+    color: aqua;
+}
